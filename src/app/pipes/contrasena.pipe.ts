@@ -18,6 +18,7 @@ export class ContrasenaPipe implements PipeTransform {
     }
     return nombre;
 
+    // OTRA OPCION
     // let salida:string ="";
     // if(activo){
     //   for (let i=0; i<value.length; i++) {
