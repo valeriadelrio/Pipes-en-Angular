@@ -13,7 +13,8 @@ export class CapitalizadoPipe implements PipeTransform {
         nombres[key] = nombres[key][0].toUpperCase() + nombres[key].substr(1);
       }
     } else {
-        nombres[0] = nombres[0][0].toUpperCase() + nombres[0].substr(1)
+        nombres[0] = nombres[0][0].toUpperCase() + nombres[0].substr(1);
+        console.log(nombres[0]);
     }
     return nombres.join(" ");
   }
